@@ -31,17 +31,18 @@ a {
     font-weight: bold;
 }
 
-body {
-
+.background {
+    background-color: red;
+    height: 350px;
 }
 
 .intro-text {
     border: 2px solid black;
     width: 50%;
     height: 300px;
-    margin: 10px auto;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.8);
-    color: red;
+    color: white;
     text-align: center;
     border-radius: 20px;
 }
@@ -66,6 +67,8 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: red;
+    height: 400px;
 }
 
 .coding {
@@ -73,10 +76,12 @@ h1 {
     position: relative;
     float: left;
     width: 25%;
-    height: 30%;
+    height: 50%;
     margin: auto 20px;
     padding: 10px;
     border-radius: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .coding h2 {
@@ -95,10 +100,12 @@ h1 {
     position: relative;
     float: center;
     width: 25%;
-    height: 30%;
+    height: 50%;
     margin: auto;
     padding: 10px;
     border-radius: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .surg-tech h2 {
@@ -117,10 +124,12 @@ h1 {
     position: relative;
     float: right;
     width: 25%;
-    height: 30%;
+    height: 50%;
     margin: auto 10px;
     padding: 10px;
     border-radius: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .excited h2 {
