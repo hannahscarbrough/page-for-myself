@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: arial;
 }
 
 .headerlogo {
@@ -18,4 +19,41 @@ ul li {
     display: inline-block;
     padding: 20px;
     font-size: 20px;
+}
+
+header {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+body {
+    background: url(selfieimg.jpeg);
+    background-repeat: no-repeat;
+}
+
+.intro-text {
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 25%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 40px;
+}
+
+.intro-text p {
+    font-size: 20px;
+    width: 100%;
 }
