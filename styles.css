@@ -61,12 +61,15 @@ h1 {
     text-align: center;
 }
 
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .coding {
     border: 1px solid black;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
     position: relative;
     float: left;
     width: 25%;
@@ -78,6 +81,7 @@ h1 {
 
 .coding h2 {
     padding: 10px;
+    text-align: center;
 }
 
 .coding p {
@@ -105,5 +109,27 @@ h1 {
 .surg-tech p {
     text-align: center;
     padding: 20px;
+    font-size: 20px;
+}
+
+.excited {
+    border: 1px solid black;
+    position: relative;
+    float: right;
+    width: 25%;
+    height: 30%;
+    margin: auto 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.excited h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.excited p {
+    text-align: center;
+    padding: 15px;
     font-size: 20px;
 }
